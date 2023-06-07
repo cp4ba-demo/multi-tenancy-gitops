@@ -14,7 +14,7 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: mq/config/argocd/preprod
+    path: mq/config/argocd/stage
   syncPolicy:
     automated:
       prune: true
