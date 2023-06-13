@@ -29,7 +29,7 @@ resources:
 # - argocd/instances/ibm-cp4ba-db2ucluster.yaml
 # - argocd/instances/ibm-cp4ba-db2u-setup.yaml 
 # - argocd/instances/ibm-cp4ba-openldap-odm.yaml
-# #- argocd/instances/ibm-cp4ba-baw.yaml
+# - argocd/instances/ibm-cp4ba-baw.yaml
 # - argocd/operators/ibm-cp4ba-operator.yaml
 # - argocd/instances/ibm-cp4ba-icp4acluster.yaml
 # - argocd/instances/ibm-cp4ba-icp4acluster-postdeploy.yaml
@@ -63,11 +63,11 @@ resources:
 
 ## IBM Foundational Services / Common Services
 # - argocd/operators/ibm-foundations.yaml
-# #- argocd/instances/ibm-foundational-services-instance.yaml
+# - argocd/instances/ibm-foundational-services-instance.yaml
 # - argocd/operators/ibm-automation-foundation-core-operator.yaml
-# #- argocd/operators/ibm-automation-foundation-operator.yaml
-# #- argocd/operators/ibm-license-service-operator.yaml
-# #- argocd/instances/ibm-license-service-instance.yaml
+# - argocd/operators/ibm-automation-foundation-operator.yaml
+# - argocd/operators/ibm-license-service-operator.yaml
+# - argocd/instances/ibm-license-service-instance.yaml
 
 # ## IBM Catalogs
 # - argocd/operators/ibm-catalogs.yaml
