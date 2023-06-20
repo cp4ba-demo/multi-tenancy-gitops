@@ -28,11 +28,15 @@ resources:
 ## IBM DB2 operator & instance, Ldap
 - argocd/operators/ibm-cp4ba-db2.yaml
 - argocd/instances/ibm-cp4ba-db2ucluster.yaml
-# - argocd/instances/ibm-cp4ba-db2u-setup.yaml
+- argocd/instances/ibm-cp4ba-db2u-setup.yaml
 - argocd/instances/ibm-cp4ba-openldap-odm.yaml
 ## IBM CP4BA operator
 - argocd/operators/ibm-cp4ba-operator.yaml
+<<<<<<< HEAD
 - argocd/instances/ibm-cp4ba-icp4acluster.yaml
+=======
+#- argocd/instances/ibm-cp4ba-icp4acluster.yaml
+>>>>>>> 08a337eb897791a7cd5896d8e6b350bcd5711367
 # - argocd/instances/ibm-cp4ba-icp4acluster-postdeploy.yaml 
 
 # # IBM CP4BA & ODM Instance
