@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ibm-cp4ba-operator
+  name: ibm-cp4ba-operator-preprod
   annotations:
     argocd.argoproj.io/sync-wave: "250"
   labels:
