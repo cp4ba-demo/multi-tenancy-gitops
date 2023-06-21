@@ -34,8 +34,8 @@ resources:
 - argocd/operators/ibm-cp4ba-operator.yaml
 - argocd/instances/ibm-cp4ba-icp4acluster.yaml
 - argocd/instances/ibm-cp4ba-icp4acluster-postdeploy.yaml 
-- argocd/instances/ibm-cp4ba-icp4acluster-preprod.yaml
-- argocd/instances/ibm-cp4ba-icp4acluster-postdeploy-preprod.yaml 
+# - argocd/instances/ibm-cp4ba-icp4acluster-preprod.yaml
+# - argocd/instances/ibm-cp4ba-icp4acluster-postdeploy-preprod.yaml 
 - argocd/operators/ibm-cp4ba-operator-preprod.yaml
 
 # # IBM CP4BA & ODM Instance
