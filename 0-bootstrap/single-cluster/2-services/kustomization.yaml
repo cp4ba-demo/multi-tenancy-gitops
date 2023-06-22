@@ -26,10 +26,10 @@ resources:
 # - argocd/instances/ibm-process-mining-instance.yaml
 
 ## IBM DB2 operator & instance, Ldap
-- argocd/operators/ibm-cp4ba-db2.yaml
-- argocd/instances/ibm-cp4ba-db2ucluster.yaml
-- argocd/instances/ibm-cp4ba-db2u-setup.yaml
-- argocd/instances/ibm-cp4ba-openldap-odm.yaml
+# - argocd/operators/ibm-cp4ba-db2.yaml
+# - argocd/instances/ibm-cp4ba-db2ucluster.yaml
+# - argocd/instances/ibm-cp4ba-db2u-setup.yaml
+# - argocd/instances/ibm-cp4ba-openldap-odm.yaml
 # - argocd/operators/ibm-cp4ba-db2-preprod.yaml
 ## IBM CP4BA operator
 # - argocd/operators/ibm-cp4ba-operator.yaml
