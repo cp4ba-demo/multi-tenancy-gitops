@@ -719,7 +719,7 @@ enable_cp4i() {
   sed -i.bak '/argocd\/namespace-tools.yaml/s/^#//g' kustomization.yaml
   sed -i.bak '/argocd\/namespace-ci.yaml/s/^#//g' kustomization.yaml
   sed -i.bak '/argocd\/namespace-dev.yaml/s/^#//g' kustomization.yaml
-  sed -i.bak '/argocd\/namespace-staging.yaml/s/^#//g' kustomization.yaml
+  sed -i.bak '/argocd\/namespac-preprod.yaml/s/^#//g' kustomization.yaml
   sed -i.bak '/argocd\/namespace-prod.yaml/s/^#//g' kustomization.yaml
   rm kustomization.yaml.bak
   popd
