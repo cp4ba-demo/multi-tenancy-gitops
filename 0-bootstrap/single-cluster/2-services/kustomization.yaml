@@ -33,7 +33,7 @@ resources:
 # - argocd/operators/ibm-cp4ba-db2-preprod.yaml
 ## IBM CP4BA operator
 - argocd/operators/ibm-cp4ba-operator.yaml
-# - argocd/instances/ibm-cp4ba-icp4acluster.yaml
+- argocd/instances/ibm-cp4ba-icp4acluster.yaml
 # - argocd/instances/ibm-cp4ba-icp4acluster-postdeploy.yaml 
 # - argocd/instances/ibm-cp4ba-icp4acluster-preprod.yaml
 # - argocd/instances/ibm-cp4ba-icp4acluster-postdeploy-preprod.yaml 
