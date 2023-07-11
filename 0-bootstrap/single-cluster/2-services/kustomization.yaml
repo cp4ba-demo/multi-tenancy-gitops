@@ -47,7 +47,7 @@ resources:
 
 # - argocd/instances/ibm-cp4ba-baw.yaml
 - argocd/operators/ibm-cp4ba-operator.yaml
-# - argocd/instances/ibm-cp4ba-icp4acluster.yaml
+- argocd/instances/ibm-cp4ba-icp4acluster.yaml
 # - argocd/instances/ibm-cp4?ba-icp4acluster-postdeploy.yaml
 
 ## Cloud Pak for Data
